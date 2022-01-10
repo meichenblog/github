@@ -10,7 +10,7 @@ git config --list --show-origin
 
 ```bash
 git config --global user.name "John Doe"		# Git上配置GitHub用户名称
-git config --global user.email johndoe.example.com  13316899740@163.com  	# Git上配置GItHub注册邮箱
+git config --global user.email "johndoe.example.com"   	# Git上配置GItHub注册邮箱
 ```
 
 
@@ -33,19 +33,10 @@ GitHub添加key
 
 ```bash
 echo "# IpadPro11" >> README.md
-git init														# 会在本地项目中，生成一个.git的文件
-git add README.md												 # 添加文件到仓库
-git commit -m "first commit"									  # 提交的文件注释说明，最好说明一下，否则有时会出错
-git branch -M mei												 # 
-git remote add origin https://github.com/meichenblog/IpadPro11.git
-git push -u origin mei
+git init														    # 会在本地项目中，生成一个.git的文件
+git add README.md												# 添加文件到仓库
+git commit -m "first commit"						# 提交的文件注释说明，最好说明一下，否则有时会出错
+git branch -M mei												 
+git remote add origin https://github.com/meichenblog/IpadPro11.git # 将本地仓库关联到github的仓库里去
+git push -u origin mei                  # 将代码提交到Github上
 ```
-
-
-
-```bash
-git remote add origin https://github.com/meichenblog/IpadPro11.git	 # 将本地仓库关联到github的仓库里去 
-git branch -M mei												 #  
-git push -u origin mei											 # 将代码提交到Github上
-```
-
