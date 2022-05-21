@@ -1,5 +1,7 @@
 # GitHub 与 Git 的使用
 
+[git](https://www.yiibai.com/git/git_config.html)
+
 ## 查看Git所有配置以及他们所在的文件：
 
 ```bash
