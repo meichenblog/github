@@ -42,3 +42,12 @@ git branch -M mei
 git remote add origin https://github.com/meichenblog/IpadPro11.git # 将本地仓库关联到github的仓库里去
 git push -u origin mei                  # 将代码提交到Github上
 ```
+# 配置Github访问加速
+
+https://github.com/oldj/SwitchHosts
+
+https://swh.app/
+
+https://github.com/521xueweihan/GitHub520
+
+https://github.com/gauseen/
