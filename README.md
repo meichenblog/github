@@ -20,7 +20,7 @@ git config --global user.email "johndoe.example.com"   	# Git上配置GItHub注�
 Git本地创建key钥
 
 ```bash
-ssh-keygen -t rsa -C "xxxxxxx@qq.com"  # xxxxxxx@qq.com(可以是Github邮箱)
+ssh-keygen -t ed25519 -N '' -f ~/.ssh/id_ed25519
 ```
 
 把生成的id_rsa.pub的信息添加到Github的SSH and GPG Keys中
